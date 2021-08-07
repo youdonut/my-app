@@ -16,10 +16,13 @@ input, button {
 
 img {
     width: 100%;
+  height: auto;
 }
 
 .imgContainer{
     position: relative;
+    max-width: 500px;
+
 }
 
 .topText, .bottomText {
