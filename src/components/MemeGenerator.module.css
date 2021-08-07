@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input, button {
+    margin-bottom: .50rem;
+    padding: .50rem;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+.imgContainer{
+    position: relative;
+}
+
+.topText, .bottomText {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    background-color: whitesmoke;
+}
+
+.topText {
+    top: 0;
+}
+
+.bottomText {
+    bottom: 0;
+}
+
+.formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+    .formContainer{
+        flex-direction: column;
+    }
+}
+

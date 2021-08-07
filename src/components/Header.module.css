@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+header {
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2em;
+  }
